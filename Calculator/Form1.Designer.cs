@@ -94,6 +94,7 @@ namespace Calculator
             this.btnCong.TabIndex = 7;
             this.btnCong.Text = "cộng ";
             this.btnCong.UseVisualStyleBackColor = true;
+            this.btnCong.Click += new System.EventHandler(this.btnCong_Click);
             // 
             // Form1
             // 
