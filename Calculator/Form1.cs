@@ -30,5 +30,7 @@ namespace Calculator
             ketQua = c.Exectute("+");
             txtKQ.Text = ketQua.ToString();
         }
+
+       
     }
 }

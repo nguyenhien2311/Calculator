@@ -67,7 +67,7 @@ namespace Calculator
             this.label2.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.label2.Location = new System.Drawing.Point(36, 37);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(674, 39);
+            this.label2.Size = new System.Drawing.Size(651, 38);
             this.label2.TabIndex = 29;
             this.label2.Text = "CHƯƠNG TRÌNH MÁY TÍNH ĐƠN GIẢN ";
             // 
@@ -156,6 +156,7 @@ namespace Calculator
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            
             this.ResumeLayout(false);
             this.PerformLayout();
 
