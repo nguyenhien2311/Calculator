@@ -17,27 +17,18 @@ namespace Calculator
             InitializeComponent();
         }
 
-        private void btnCong_Click(object sender, EventArgs e)
-        {
-<<<<<<< HEAD
-            if (txtA.Text != String .Empty )
-=======
-            if (txtA.Text != String.Empty && txtB.Text != String.Empty  )
->>>>>>> feature-cal
-            {
-                double a = double.Parse(txtA.Text);
-                double b = double.Parse(txtB.Text);
-                double c = a + b;
-                txtKetQua.Text = c.ToString(); 
-            }
-        }
+       
 
-        private void btnTRu_Click(object sender, EventArgs e)
+       
+
+        private void btnCong_Click_1(object sender, EventArgs e)
         {
-            double a = double.Parse(txtA.Text);
-            double b = double.Parse(txtB.Text);
-            double c = a - b;
-            txtKetQua.Text = c.ToString();
+            int a, b, ketQua;
+            a = int.Parse(txtSo1.Text);
+            b = int.Parse(txtSo2.Text);
+            Caculation c = new Caculation(a, b);
+            ketQua = c.Exectute("+");
+            txtKQ.Text = ketQua.ToString();
         }
     }
 }
