@@ -79,12 +79,15 @@ namespace CalculatorTester
         public void TestWithDataSource()
         {
             int a,b ,expected, actual;
+            string operation; 
             a =int.Parse (TestContext.DataRow[0].ToString());
             b= int.Parse(TestContext.DataRow[1].ToString());
-            expected = int.Parse(TestContext.DataRow[2].ToString());
+            operation = TestContext.DataRow[2].ToString();         
+            operation = operation.Remove(0, 1);
+            expected = int.Parse(TestContext.DataRow[3].ToString());
             c = new Caculation(a, b); 
-            actual = c.Exectute("+");
-            Assert.AreEqual(expected, actual);
+            actual = c.Exectute(operation );
+            Assert.AreEqual(expected,actual );
 
 
         }
