@@ -31,6 +31,20 @@ namespace Calculator
             txtKQ.Text = ketQua.ToString();
         }
 
-       
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int n; 
+            double    x , ketQua ;
+            n = int.Parse(txtSo2.Text);
+            x = double .Parse(txtSo1.Text);
+           ketQua =  Caculation.Power(x,n);
+            txtKQ.Text = ketQua.ToString();
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -91,5 +91,19 @@ namespace CalculatorTester
 
 
         }
+        [TestMethod]
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", @".\Data\TestDataPower.csv", "TestDataPower#csv", DataAccessMethod.Sequential)]
+        public void TestPower ()
+        {
+            int n;
+            double x, expected;
+            double actual;
+            n = int.Parse (TestContext.DataRow[1].ToString ());
+            x = double.Parse(TestContext.DataRow[0].ToString());
+            expected = double .Parse(TestContext.DataRow[2].ToString());
+            actual = Caculation.Power(x, n);
+            Assert.AreEqual(expected, actual);
+
+        }
     }
 }

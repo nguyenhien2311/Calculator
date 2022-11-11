@@ -16,3 +16,4 @@ C:\Users\84764\OneDrive\Tài liệu\Demo\Calculator\CalculatorTester\obj\Debug
 C:\Users\84764\OneDrive\Tài liệu\Demo\Calculator\CalculatorTester\obj\Debug\CalculatorTester.dll
 C:\Users\84764\OneDrive\Tài liệu\Demo\Calculator\CalculatorTester\obj\Debug\CalculatorTester.pdb
 C:\Users\84764\OneDrive\Tài liệu\Demo\Calculator\CalculatorTester\bin\Debug\Data\TestData.csv
+C:\Users\84764\OneDrive\Tài liệu\Demo\Calculator\CalculatorTester\bin\Debug\Data\TestDataPower.csv

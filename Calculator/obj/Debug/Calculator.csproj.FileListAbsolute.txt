@@ -8,3 +8,4 @@ C:\Users\84764\OneDrive\Tài liệu\Demo\Calculator\Calculator\obj\Debug\Calcu
 C:\Users\84764\OneDrive\Tài liệu\Demo\Calculator\Calculator\obj\Debug\Calculator.exe
 C:\Users\84764\OneDrive\Tài liệu\Demo\Calculator\Calculator\obj\Debug\Calculator.pdb
 C:\Users\84764\OneDrive\Tài liệu\Demo\Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+C:\Users\84764\OneDrive\Tài liệu\Demo\Calculator\Calculator\obj\Debug\Calculator.Form2.resources
